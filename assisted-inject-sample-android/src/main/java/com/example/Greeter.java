@@ -8,8 +8,8 @@ public final class Greeter {
   private final String exclamation;
 
   @AssistedInject
-  Greeter(@Assisted String greeting, @Exclamation String exclamation) {
-    this.greeting = greeting;
+  Greeter(@Assisted String greetg, @Exclamation String exclamation) {
+    this.greeting = greetg;
     this.exclamation = exclamation;
   }
 
